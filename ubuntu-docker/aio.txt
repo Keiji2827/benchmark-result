@@ -1,0 +1,48 @@
+AIO-Stress 0.21:
+    pts/aio-stress-1.1.1
+    Disk Test Configuration
+
+System Information
+
+Hardware:
+Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Memory: 4096MB, Disk: 52GB VBOX HDD
+
+Software:
+OS: Debian Linux Stretch/sid, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), File-System: overlayfs, Screen Resolution: 912x758, System Layer: docker VirtualBox
+
+    Would you like to save these test results (Y/n): Y
+    Enter a name to save these results under: KeijiU
+    Enter a unique name to describe this test run / configuration: 
+
+If you wish, enter a new description below to better describe this result set / system configuration under test.
+Press ENTER to proceed without changes.
+
+Current Description: docker VirtualBox testing on Debian Linux Stretch/sid via the Phoronix Test Suite.
+
+New Description: 
+
+
+AIO-Stress 0.21:
+    pts/aio-stress-1.1.1 [Test: Random Write]
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 6 Minutes
+        Started Run 1 @ 10:42:06
+        Started Run 2 @ 10:43:53
+        Started Run 3 @ 10:43:59  [Std. Dev: 130.35%]
+        Started Run 4 @ 10:44:21  [Std. Dev: 112.40%]
+        Started Run 5 @ 10:44:35  [Std. Dev: 99.71%]
+        Started Run 6 @ 10:44:48  [Std. Dev: 100.80%]
+
+    Test Results:
+        40.17
+        884.68
+        138.17
+        284.75
+        299.19
+        153.27
+
+    Average: 300.04 MB/s
+
+    Would you like to upload the results to OpenBenchmarking.org (Y/n): n
+
