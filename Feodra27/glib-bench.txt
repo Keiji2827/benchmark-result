@@ -1,0 +1,232 @@
+$ phoronix-test-suite benchmark pts/glibc-bench
+
+Phoronix Test Suite v7.8.0
+
+    To Install:    pts/glibc-bench-1.5.0
+
+    Determining File Requirements ..........................................
+    Searching Download Caches ..............................................
+
+    1 Test To Install
+        1 File To Download [0.63MB]
+        100MB Of Disk Space Is Needed
+
+    pts/glibc-bench-1.5.0:
+        Test Installation 1 of 1
+        1 File Needed [0.63 MB / 1 Minute]
+        Downloading: glibc-benchmarks-1.tar.gz                      [0.63MB]
+        Estimated Download Time: 1m ........................................
+        Installation Size: 100 MB
+        Installing Test @ 11:27:14
+
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0
+    Processor Test Configuration
+        1: ffsll
+        2: ffs
+        3: pthread_once
+        4: ffsll
+        5: tanh
+        6: sqrt
+        7: Test All Options
+        Benchmark: 7
+
+
+System Information
+
+
+  PROCESSOR:          Intel Core i5-2400 @ 3.09GHz
+    Core Count:       3
+    Extensions:       SSE 4.2 + AVX
+    Cache Size:       6144 KB
+
+  GRAPHICS:           llvmpipe 3968MB
+    OpenGL:           2.1 Mesa 17.2.4 (LLVM 5.0 256 bits)
+    Monitor:          VBOX monitor
+    Screen:           1680x1050
+
+  MOTHERBOARD:        Oracle VirtualBox v1.2
+    BIOS Version:     VirtualBox
+    Chipset:          Intel 440FX- 82441FX PMC
+    Network:          Intel 82540EM Gigabit
+
+  MEMORY:             4096MB
+
+  DISK:               52GB VBOX HDD
+    File-System:      ext4
+    Mount Options:    data=ordered relatime rw
+    Disk Scheduler:   CFQ
+
+  OPERATING SYSTEM:   Fedora 27
+    Kernel:           4.14.18-300.fc27.x86_64 (x86_64)
+    Desktop:          GNOME Shell 3.26.2
+    Compiler:         GCC 7.3.1 20180130
+    System Layer:     Oracle VirtualBox
+    Security:         KPTI + __user pointer sanitization + Full generic retpoline Protection
+
+    Would you like to save these test results (Y/n): Y
+
+Recently Saved Test Results:
+- keijiu   [Today]
+
+    Enter a name to save these results under: KeijiU
+
+Current Test Identifiers:
+- VBOX HDD
+
+    Enter a unique name to describe this test run / configuration: 
+
+If desired, enter a new description below to better describe this result set / system configuration under test.
+Press ENTER to proceed without changes.
+
+Current Description: Oracle VirtualBox testing on Fedora 27 via the Phoronix Test Suite.
+
+New Description: 
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: ffs]
+    Test 1 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 17 Minutes [11:46 UTC]
+        Started Run 1 @ 11:29:26
+        The test run ended quickly.
+        Started Run 2 @ 11:29:28
+        The test run ended quickly.
+        Started Run 3 @ 11:29:30
+        The test run ended quickly.
+
+    Benchmark: ffs:
+        7.60139
+        7.63445
+        7.56487
+
+    Average: 7.60 nanoseconds
+    Deviation: 0.46%
+
+    OpenBenchmarking.org Dynamic Comparison: 
+    nanoseconds < Lower Is Better
+    Intel Core i5-2400 .. 7.60 |================================================
+    4.4.0-1011-aws ...... 5.38 |==================================
+    3130-141-generic .... 5.38 |==================================
+    Result Perspective: https://openbenchmarking.org/result/1801317-SO-UBUNTUKER49
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: sqrt]
+    Test 2 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 14 Minutes [11:43 UTC]
+        Started Run 1 @ 11:29:42
+        The test run ended quickly.
+        Started Run 2 @ 11:29:44
+        The test run ended quickly.
+        Started Run 3 @ 11:29:47
+        The test run ended quickly.
+
+    Benchmark: sqrt:
+        17.0075
+        17.1119
+        17.0815
+
+    Average: 17.07 nanoseconds
+    Deviation: 0.31%
+
+    OpenBenchmarking.org Dynamic Comparison: 
+    nanoseconds < Lower Is Better
+    Intel Core i5-2400 .. 17.07 |===============================================
+    4.4.0-1011-aws ...... 15.32 |==========================================
+    3130-141-generic .... 15.31 |==========================================
+    Result Perspective: https://openbenchmarking.org/result/1801317-SO-UBUNTUKER49
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: tanh]
+    Test 3 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 11 Minutes [11:40 UTC]
+        Started Run 1 @ 11:29:56
+        The test run ended quickly.
+        Started Run 2 @ 11:29:59
+        The test run ended quickly.
+        Started Run 3 @ 11:30:01
+        The test run ended quickly.
+
+    Benchmark: tanh:
+        72.84
+        73.6015
+        73.9585
+
+    Average: 73.47 nanoseconds
+    Deviation: 0.78%
+
+    OpenBenchmarking.org Dynamic Comparison: 
+    nanoseconds < Lower Is Better
+    Intel Core i5-2400 .. 73.47 |===============================================
+    3130-141-generic .... 63.88 |=========================================
+    4.4.0-1011-aws ...... 61.99 |========================================
+    Result Perspective: https://openbenchmarking.org/result/1801317-SO-UBUNTUKER49
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: ffsll]
+    Test 4 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 7 Minutes [11:36 UTC]
+        Started Run 1 @ 11:30:11
+        The test run ended quickly.
+        Started Run 2 @ 11:30:13
+        The test run ended quickly.
+        Started Run 3 @ 11:30:16
+        The test run ended quickly.
+
+    Benchmark: ffsll:
+        8.6354
+        8.72972
+        8.82621
+
+    Average: 8.73 nanoseconds
+    Deviation: 1.09%
+
+    OpenBenchmarking.org Dynamic Comparison: 
+    nanoseconds < Lower Is Better
+    Intel Core i5-2400 .. 8.73 |================================================
+    4.4.0-1011-aws ...... 5.38 |==============================
+    3130-141-generic .... 5.38 |==============================
+    Result Perspective: https://openbenchmarking.org/result/1801317-SO-UBUNTUKER49
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: pthread_once]
+    Test 5 of 5
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 4 Minutes [11:33 UTC]
+        Started Run 1 @ 11:30:26
+        The test run ended quickly.
+        Started Run 2 @ 11:30:28
+        The test run ended quickly.
+        Started Run 3 @ 11:30:30
+        The test run ended quickly.
+
+    Benchmark: pthread_once:
+        9.00482
+        9.17269
+        9.02209
+
+    Average: 9.07 nanoseconds
+    Deviation: 1.02%
+
+    OpenBenchmarking.org Dynamic Comparison: 
+    nanoseconds < Lower Is Better
+    Intel Core i5-2400 .. 9.07 |================================================
+    3130-141-generic .... 6.28 |=================================
+    4.4.0-1011-aws ...... 6.27 |=================================
+    Result Perspective: https://openbenchmarking.org/result/1801317-SO-UBUNTUKER49
+
+

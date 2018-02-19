@@ -1,0 +1,143 @@
+$ phoronix-test-suite benchmark pts/ffmpeg
+
+The following dependencies are needed and will be installed: 
+
+- yasm
+
+This process may take several minutes.
+Last metadata expiration check: 2:04:01 ago on Mon 19 Feb 2018 09:38:18 GMT.
+Dependencies resolved.
+================================================================================
+ Package        Arch             Version                 Repository        Size
+================================================================================
+Installing:
+ yasm           x86_64           1.3.0-6.fc27            fedora           488 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 488 k
+Installed size: 2.7 M
+Downloading Packages:
+yasm-1.3.0-6.fc27.x86_64.rpm                    879 kB/s | 488 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           509 kB/s | 488 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : yasm-1.3.0-6.fc27.x86_64                               1/1 
+  Running scriptlet: yasm-1.3.0-6.fc27.x86_64                               1/1 
+Running as unit: run-r44039752c9cc4e389ba6266e1c06fadb.service
+  Verifying        : yasm-1.3.0-6.fc27.x86_64                               1/1 
+
+Installed:
+  yasm.x86_64 1.3.0-6.fc27                                                      
+
+Complete!
+
+Phoronix Test Suite v7.8.0
+
+    To Install:    pts/ffmpeg-2.7.0
+
+    Determining File Requirements ..........................................
+    Searching Download Caches ..............................................
+
+    1 Test To Install
+        2 Files To Download [300MB]
+        372MB Of Disk Space Is Needed
+
+    pts/ffmpeg-2.7.0:
+        Test Installation 1 of 1
+        2 Files Needed [300 MB / 15 Minutes]
+        Downloading: ffmpeg-3.4.1.tar.bz2                           [9.71MB]
+        Estimated Download Time: 1m ........................................
+        Downloading: HD2-h264.ts                                     [290MB]
+        Estimated Download Time: 2m ........................................
+        Installation Size: 372 MB
+        Installing Test @ 11:43:03
+
+
+System Information
+
+
+  PROCESSOR:          Intel Core i5-2400 @ 3.09GHz
+    Core Count:       3
+    Extensions:       SSE 4.2 + AVX
+    Cache Size:       6144 KB
+
+  GRAPHICS:           llvmpipe 3968MB
+    OpenGL:           2.1 Mesa 17.2.4 (LLVM 5.0 256 bits)
+    Monitor:          VBOX monitor
+    Screen:           1680x1050
+
+  MOTHERBOARD:        Oracle VirtualBox v1.2
+    BIOS Version:     VirtualBox
+    Chipset:          Intel 440FX- 82441FX PMC
+    Network:          Intel 82540EM Gigabit
+
+  MEMORY:             4096MB
+
+  DISK:               52GB VBOX HDD
+    File-System:      ext4
+    Mount Options:    data=ordered relatime rw
+    Disk Scheduler:   CFQ
+
+  OPERATING SYSTEM:   Fedora 27
+    Kernel:           4.14.18-300.fc27.x86_64 (x86_64)
+    Desktop:          GNOME Shell 3.26.2
+    Compiler:         GCC 7.3.1 20180130
+    System Layer:     Oracle VirtualBox
+    Security:         KPTI + __user pointer sanitization + Full generic retpoline Protection
+
+    Would you like to save these test results (Y/n): Y
+
+Recently Saved Test Results:
+- keijiu   [Today]
+
+    Enter a name to save these results under: KeijiU
+
+Current Test Identifiers:
+- VBOX HDD
+- Intel Core i5-2400
+
+    Enter a unique name to describe this test run / configuration: 
+
+If desired, enter a new description below to better describe this result set / system configuration under test.
+Press ENTER to proceed without changes.
+
+Current Description: Oracle VirtualBox testing on Fedora 27 via the Phoronix Test Suite.
+
+New Description: 
+
+
+FFmpeg 3.4.1:
+    pts/ffmpeg-2.7.0
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 2 Minutes [11:50 UTC]
+        Started Run 1 @ 11:48:14
+        Started Run 2 @ 11:48:30
+        Started Run 3 @ 11:48:47
+
+    H.264 HD To NTSC DV:
+        15.564942121506
+        15.368692874908
+        15.162926912308
+
+    Average: 15.37 Seconds
+    Deviation: 1.31%
+
+    OpenBenchmarking.org Dynamic Comparison: 
+    Seconds < Lower Is Better
+    jeudi ............... 23.75 |===============================================
+    Reference ........... 21.15 |==========================================
+    Intel Core i5-2400 .. 15.37 |==============================
+    Result Perspective: https://openbenchmarking.org/result/1802080-KH-TESTDISI576
+
+    Do you want to view the results in your web browser (Y/n): Y
+    Would you like to upload the results to OpenBenchmarking.org (Y/n): n
+

@@ -1,0 +1,1 @@
+BOOT_IMAGE=/vmlinuz-4.14.18-300.fc27.x86_64 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/root rd.lvm.lv=fedora/swap rhgb quiet LANG=en_GB.UTF-8

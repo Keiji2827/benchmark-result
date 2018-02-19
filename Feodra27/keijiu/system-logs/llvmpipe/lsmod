@@ -1,0 +1,52 @@
+Module                  Size  Used by
+nls_utf8               16384  1
+isofs                  49152  1
+fuse                  122880  2
+xt_nat                 16384  4
+veth                   16384  0
+vxlan                  57344  0
+ip6_udp_tunnel         16384  1 vxlan
+udp_tunnel             16384  1 vxlan
+iptable_mangle         16384  0
+xt_mark                16384  0
+ipt_MASQUERADE         16384  3
+nf_nat_masquerade_ipv4    16384  1 ipt_MASQUERADE
+nf_conntrack_netlink    40960  0
+nfnetlink              16384  2 nf_conntrack_netlink
+iptable_nat            16384  2
+nf_conntrack_ipv4      16384  11
+nf_defrag_ipv4         16384  1 nf_conntrack_ipv4
+nf_nat_ipv4            16384  1 iptable_nat
+xt_addrtype            16384  2
+xt_conntrack           16384  3
+nf_nat                 36864  3 xt_nat,nf_nat_masquerade_ipv4,nf_nat_ipv4
+nf_conntrack          151552  8 xt_nat,nf_conntrack_ipv4,ipt_MASQUERADE,nf_conntrack_netlink,nf_nat_masquerade_ipv4,xt_conntrack,nf_nat_ipv4,nf_nat
+libcrc32c              16384  2 nf_conntrack,nf_nat
+br_netfilter           24576  0
+bridge                176128  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+overlay                86016  2
+ebtable_filter         16384  0
+ebtables               36864  1 ebtable_filter
+ip6table_filter        16384  0
+ip6_tables             32768  1 ip6table_filter
+vboxsf                 57344  2
+sunrpc                397312  1
+crct10dif_pclmul       16384  0
+crc32_pclmul           16384  0
+ghash_clmulni_intel    16384  0
+vboxguest             307200  5 vboxsf
+joydev                 24576  0
+intel_rapl_perf        16384  0
+i2c_piix4              24576  0
+video                  45056  0
+vboxvideo              45056  3
+drm_kms_helper        196608  1 vboxvideo
+ttm                   114688  1 vboxvideo
+drm                   434176  6 vboxvideo,ttm,drm_kms_helper
+crc32c_intel           24576  1
+serio_raw              16384  0
+e1000                 151552  0
+ata_generic            16384  0
+pata_acpi              16384  0

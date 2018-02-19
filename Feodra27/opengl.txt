@@ -1,0 +1,85 @@
+$ phoronix-test-suite benchmark pts/glmark2
+
+Phoronix Test Suite v7.8.0
+
+    Installed:     pts/glmark2-1.1.0
+
+
+GLmark2 276:
+    pts/glmark2-1.1.0
+    Graphics Test Configuration
+        1: 800 x 600
+        2: 912 x 758
+        3: Test All Options
+        Resolution: 1
+
+
+System Information
+
+
+  PROCESSOR:          Intel Core i5-2400 @ 3.09GHz
+    Core Count:       3
+    Extensions:       SSE 4.2 + AVX
+    Cache Size:       6144 KB
+
+  GRAPHICS:           llvmpipe 3968MB
+    OpenGL:           2.1 Mesa 17.2.4 (LLVM 5.0 256 bits)
+    Monitor:          VBOX monitor
+    Screen:           912x758
+
+  MOTHERBOARD:        Oracle VirtualBox v1.2
+    BIOS Version:     VirtualBox
+    Chipset:          Intel 440FX- 82441FX PMC
+    Network:          Intel 82540EM Gigabit
+
+  MEMORY:             4096MB
+
+  DISK:               52GB VBOX HDD
+    File-System:      ext4
+    Mount Options:    data=ordered relatime rw
+    Disk Scheduler:   CFQ
+
+  OPERATING SYSTEM:   Fedora 27
+    Kernel:           4.14.18-300.fc27.x86_64 (x86_64)
+    Desktop:          GNOME Shell 3.26.2
+    Compiler:         GCC 7.3.1 20180130
+    System Layer:     Oracle VirtualBox
+    Security:         KPTI + __user pointer sanitization + Full generic retpoline Protection
+
+    Would you like to save these test results (Y/n): Y
+
+Recently Saved Test Results:
+- keijiu   [Today]
+
+    Enter a name to save these results under: KeijiU
+
+Current Test Identifiers:
+- VBOX HDD
+- Intel Core i5-2400
+- llvmpipe
+
+    Enter a unique name to describe this test run / configuration: 
+
+If desired, enter a new description below to better describe this result set / system configuration under test.
+Press ENTER to proceed without changes.
+
+Current Description: Oracle VirtualBox testing on Fedora 27 via the Phoronix Test Suite.
+
+New Description: 
+
+
+GLmark2 276:
+    pts/glmark2-1.1.0 [Resolution: 800 x 600]
+    Test 1 of 1
+    Estimated Trial Run Count:    1
+    Estimated Time To Completion: 6 Minutes [13:42 UTC]
+        Started Run 1 @ 13:36:28
+
+    Resolution: 800 x 600:
+        146
+
+    Average: 146 Score
+
+    Do you want to view the results in your web browser (Y/n): Y
+    Would you like to upload the results to OpenBenchmarking.org (Y/n): n
+

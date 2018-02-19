@@ -1,0 +1,54 @@
+phoronix-test-suite benchmark pts/glmark2
+
+Phoronix Test Suite v5.2.1
+
+    Installed: pts/glmark2-1.1.0
+
+
+GLmark2 276:
+    pts/glmark2-1.1.0
+    Graphics Test Configuration
+
+System Information
+
+Hardware:
+Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Memory: 4096MB, Disk: 52GB VBOX HDD
+
+Software:
+OS: Debian Linux Stretch/sid, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), OpenGL: 3.3 Mesa 17.2.8, Compiler: GCC 5.4.0 20160609, File-System: overlayfs, Screen Resolution: 912x758, System Layer: docker VirtualBox
+
+    Would you like to save these test results (Y/n): Y
+
+Recently Saved Test Results:
+- keijiu   [Today]
+
+    Enter a name to save these results under: KeijiU
+
+Current Test Identifiers:
+- VBOX HDD
+- Intel Core i5-2400
+
+    Enter a unique name to describe this test run / configuration: 
+
+If you wish, enter a new description below to better describe this result set / system configuration under test.
+Press ENTER to proceed without changes.
+
+Current Description: Running pts/glmark2-1.1.0 via the Phoronix Test Suite.
+
+New Description: 
+
+
+GLmark2 276:
+    pts/glmark2-1.1.0 [Resolution: 800 x 600]
+    Test 1 of 1
+    Estimated Trial Run Count:    1
+    Estimated Time To Completion: 6 Minutes
+        Started Run 1 @ 13:29:36
+
+    Test Results:
+        96
+
+    Average: 96 Score
+
+    Do you want to view the results in your web browser (Y/n): Y
+

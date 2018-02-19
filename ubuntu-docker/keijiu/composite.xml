@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>KeijiU</Title>
+    <LastModified>2018-02-19 13:53:51</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>Running pts/glmark2-1.1.0 via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>VBOX HDD</Identifier>
+    <Hardware>Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Memory: 4096MB, Disk: 52GB VBOX HDD</Hardware>
+    <Software>OS: Debian Linux Stretch/sid, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), File-System: overlayfs, Screen Resolution: 912x758, System Layer: docker VirtualBox</Software>
+    <User>root</User>
+    <TimeStamp>2018-02-19 10:42:06</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes>Disk Scheduler: CFQ.</Notes>
+    <JSON>{"disk-scheduler":"CFQ"}</JSON>
+  </System>
+  <System>
+    <Identifier>Intel Core i5-2400</Identifier>
+    <Hardware>Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Memory: 4096MB, Disk: 52GB VBOX HDD</Hardware>
+    <Software>OS: Debian Linux Stretch/sid, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), Compiler: GCC 5.4.0 20160609, File-System: overlayfs, Screen Resolution: 912x758, System Layer: docker VirtualBox</Software>
+    <User>root</User>
+    <TimeStamp>2018-02-19 11:32:55</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-vtable-verify --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-default-libstdcxx-abi=new --with-multilib-list=m32,m64,mx32 --with-tune=generic -v"}</JSON>
+  </System>
+  <System>
+    <Identifier>Intel Core i5-2400 -  - Oracle VirtualBox v1.2</Identifier>
+    <Hardware>Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Memory: 4096MB, Disk: 52GB VBOX HDD</Hardware>
+    <Software>OS: Debian Linux Stretch/sid, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), OpenGL: 3.3 Mesa 17.2.8, Compiler: GCC 5.4.0 20160609, File-System: overlayfs, Screen Resolution: 912x758, System Layer: docker VirtualBox</Software>
+    <User>root</User>
+    <TimeStamp>2018-02-19 13:29:36</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes></Notes>
+  </System>
+  <Result>
+    <Identifier>pts/aio-stress-1.1.1</Identifier>
+    <Title>AIO-Stress</Title>
+    <AppVersion>0.21</AppVersion>
+    <Arguments>-o 2</Arguments>
+    <Description>Test: Random Write</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>VBOX HDD</Identifier>
+        <Value>300.04</Value>
+        <RawString>40.17:884.68:138.17:284.75:299.19:153.27</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-ffs</Arguments>
+    <Description>Benchmark: ffs</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>7.65</Value>
+        <RawString>7.67335:7.5587:7.71839</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-sqrt</Arguments>
+    <Description>Benchmark: sqrt</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>18.86</Value>
+        <RawString>19.3347:18.3558:18.9038</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-tanh</Arguments>
+    <Description>Benchmark: tanh</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>79.23</Value>
+        <RawString>75.8858:74.7778:90.9798:75.027:80.7543:77.9588</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-ffsll</Arguments>
+    <Description>Benchmark: ffsll</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>8.58</Value>
+        <RawString>8.53562:8.72009:8.48833</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-pthread_once</Arguments>
+    <Description>Benchmark: pthread_once</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>8.72</Value>
+        <RawString>8.78819:8.69802:8.67617</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ffmpeg-2.7.0</Identifier>
+    <Title>FFmpeg</Title>
+    <AppVersion>3.4.1</AppVersion>
+    <Arguments></Arguments>
+    <Description>H.264 HD To NTSC DV</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>15.79</Value>
+        <RawString>15.912612915039:15.804315090179:15.643637180328</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lavdevice -lavfilter -lavformat -lavcodec -lswresample -lswscale -lavutil -lm -ldl -pthread -std=c11 -fomit-frame-pointer -O3 -fno-math-errno -fno-signed-zeros -fno-tree-vectorize -MMD -MF -MT"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glmark2-1.1.0</Identifier>
+    <Title>GLmark2</Title>
+    <AppVersion>276</AppVersion>
+    <Arguments>-s 800x600</Arguments>
+    <Description>Resolution: 800 x 600</Description>
+    <Scale>Score</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400 -  - Oracle VirtualBox v1.2</Identifier>
+        <Value>96</Value>
+        <RawString>96</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>Intel Core i5-2400 -  - Oracle VirtualBox v1.2</Identifier>
+        <Value>188</Value>
+        <RawString>188</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

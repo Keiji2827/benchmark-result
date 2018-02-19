@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>KeijiU</Title>
+    <LastModified>2018-02-19 10:42:05</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>docker VirtualBox testing on Debian Linux Stretch/sid via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>VBOX HDD</Identifier>
+    <Hardware>Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Memory: 4096MB, Disk: 52GB VBOX HDD</Hardware>
+    <Software>OS: Debian Linux Stretch/sid, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), File-System: overlayfs, Screen Resolution: 912x758, System Layer: docker VirtualBox</Software>
+    <User>root</User>
+    <TimeStamp>2018-02-19 10:42:06</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes>Disk Scheduler: CFQ.</Notes>
+    <JSON>{"disk-scheduler":"CFQ"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/aio-stress-1.1.1</Identifier>
+    <Title>AIO-Stress</Title>
+    <AppVersion>0.21</AppVersion>
+    <Arguments>-o 2</Arguments>
+    <Description>Test: Random Write</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>VBOX HDD</Identifier>
+        <Value>300.04</Value>
+        <RawString>40.17:884.68:138.17:284.75:299.19:153.27</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

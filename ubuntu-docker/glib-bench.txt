@@ -1,0 +1,162 @@
+# phoronix-test-suite benchmark pts/glibc-bench
+
+Phoronix Test Suite v5.2.1
+
+    To Install: pts/glibc-bench-1.5.0
+
+    Determining File Requirements ...................................................................................
+    Searching Download Caches .......................................................................................
+
+    1 Test To Install
+        1 File To Download [0.63MB]
+        100MB Of Disk Space Is Needed
+
+    pts/glibc-bench-1.5.0:
+        Test Installation 1 of 1
+        1 File Needed [0.63 MB / 1 Minute]
+        Downloading: glibc-benchmarks-1.tar.gz                                                               [0.63MB]
+        Estimated Download Time: 1m .................................................................................
+        Installation Size: 100 MB
+        Installing Test @ 11:32:42
+
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0
+    Processor Test Configuration
+        1: ffsll
+        2: ffs
+        3: pthread_once
+        4: ffsll
+        5: tanh
+        6: sqrt
+        7: Test All Options
+        Benchmark: 7
+
+
+System Information
+
+Hardware:
+Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Memory: 4096MB, Disk: 52GB VBOX HDD
+
+Software:
+OS: Debian Linux Stretch/sid, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), Compiler: GCC 5.4.0 20160609, File-System: overlayfs, Screen Resolution: 912x758, System Layer: docker VirtualBox
+
+    Would you like to save these test results (Y/n): Y
+
+Recently Saved Test Results:
+- keijiu   [Today]
+
+    Enter a name to save these results under: KeijiU
+
+Current Test Identifiers:
+- VBOX HDD
+
+    Enter a unique name to describe this test run / configuration: 
+
+If you wish, enter a new description below to better describe this result set / system configuration under test.
+Press ENTER to proceed without changes.
+
+Current Description: Running pts/glibc-bench-1.5.0 via the Phoronix Test Suite.
+
+New Description: 
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: ffs]
+    Test 1 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 17 Minutes
+        Started Run 1 @ 11:32:55
+        Started Run 2 @ 11:32:59
+        Started Run 3 @ 11:33:02  [Std. Dev: 1.08%]
+
+    Test Results:
+        7.67335
+        7.5587
+        7.71839
+
+    Average: 7.65 nanoseconds
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: sqrt]
+    Test 2 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 14 Minutes
+        Started Run 1 @ 11:33:10
+        Started Run 2 @ 11:33:13
+        Started Run 3 @ 11:33:16  [Std. Dev: 2.60%]
+
+    Test Results:
+        19.3347
+        18.3558
+        18.9038
+
+    Average: 18.86 nanoseconds
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: tanh]
+    Test 3 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 11 Minutes
+        Started Run 1 @ 11:33:24
+        Started Run 2 @ 11:33:27
+        Started Run 3 @ 11:33:30  [Std. Dev: 11.24%]
+        Started Run 4 @ 11:33:34  [Std. Dev: 9.97%]
+        Started Run 5 @ 11:33:37  [Std. Dev: 8.64%]
+        Started Run 6 @ 11:33:40  [Std. Dev: 7.79%]
+
+    Test Results:
+        75.8858
+        74.7778
+        90.9798
+        75.027
+        80.7543
+        77.9588
+
+    Average: 79.23 nanoseconds
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: ffsll]
+    Test 4 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 7 Minutes
+        Started Run 1 @ 11:33:48
+        Started Run 2 @ 11:33:51
+        Started Run 3 @ 11:33:55  [Std. Dev: 1.43%]
+
+    Test Results:
+        8.53562
+        8.72009
+        8.48833
+
+    Average: 8.58 nanoseconds
+
+
+glibc bench 1.0:
+    pts/glibc-bench-1.5.0 [Benchmark: pthread_once]
+    Test 5 of 5
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 4 Minutes
+        Started Run 1 @ 11:34:02
+        Started Run 2 @ 11:34:05
+        Started Run 3 @ 11:34:09  [Std. Dev: 0.68%]
+
+    Test Results:
+        8.78819
+        8.69802
+        8.67617
+
+    Average: 8.72 nanoseconds
+
+    Would you like to upload the results to OpenBenchmarking.org (Y/n): n
+
+root@b02de00009a1:/# 
+

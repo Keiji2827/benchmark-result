@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Result>
+    <Identifier>pts/glmark2-1.1.0</Identifier>
+    <Title>GLmark2</Title>
+    <AppVersion>276</AppVersion>
+    <Arguments>-s 800x600</Arguments>
+    <Description>Resolution: 800 x 600</Description>
+    <Scale>Score</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400 -  - Oracle VirtualBox v1.2</Identifier>
+        <Value>188</Value>
+        <RawString>188</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

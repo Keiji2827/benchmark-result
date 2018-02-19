@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>KeijiU</Title>
+    <LastModified>2018-02-19 13:42:08</LastModified>
+    <TestClient>Phoronix Test Suite v7.8.0 (Folldal)</TestClient>
+    <Description>Oracle VirtualBox testing on Fedora 27 via the Phoronix Test Suite.</Description>
+    <Notes></Notes>
+    <InternalTags></InternalTags>
+    <ReferenceID></ReferenceID>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>VBOX HDD</Identifier>
+    <Hardware>Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Chipset: Intel 440FX- 82441FX PMC, Memory: 4096MB, Disk: 52GB VBOX HDD, Graphics: llvmpipe 3968MB, Monitor: VBOX monitor, Network: Intel 82540EM Gigabit</Hardware>
+    <Software>OS: Fedora 27, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), Desktop: GNOME Shell 3.26.2, OpenGL: 2.1 Mesa 17.2.4 (LLVM 5.0 256 bits), Compiler: GCC 7.3.1 20180130, File-System: ext4, Screen Resolution: 1680x1050, System Layer: Oracle VirtualBox</Software>
+    <User></User>
+    <TimeStamp>2018-02-19 10:08:50</TimeStamp>
+    <TestClientVersion></TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-redhat-linux --disable-libunwind-exceptions --enable-__cxa_atexit --enable-bootstrap --enable-checking=release --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,objc,obj-c++,fortran,ada,go,lto --enable-libmpx --enable-multilib --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --mandir=\/usr\/share\/man --with-arch_32=i686 --with-gcc-major-version-only --with-isl --with-linker-hash-style=gnu --with-tune=generic --without-cuda-driver","disk-scheduler":"CFQ","disk-mount-options":"data=ordered,relatime,rw","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <System>
+    <Identifier>Intel Core i5-2400</Identifier>
+    <Hardware>Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Chipset: Intel 440FX- 82441FX PMC, Memory: 4096MB, Disk: 52GB VBOX HDD, Graphics: llvmpipe 3968MB, Monitor: VBOX monitor, Network: Intel 82540EM Gigabit</Hardware>
+    <Software>OS: Fedora 27, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), Desktop: GNOME Shell 3.26.2, OpenGL: 2.1 Mesa 17.2.4 (LLVM 5.0 256 bits), Compiler: GCC 7.3.1 20180130, File-System: ext4, Screen Resolution: 1680x1050, System Layer: Oracle VirtualBox</Software>
+    <User></User>
+    <TimeStamp>2018-02-19 11:29:25</TimeStamp>
+    <TestClientVersion></TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-redhat-linux --disable-libunwind-exceptions --enable-__cxa_atexit --enable-bootstrap --enable-checking=release --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,objc,obj-c++,fortran,ada,go,lto --enable-libmpx --enable-multilib --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --mandir=\/usr\/share\/man --with-arch_32=i686 --with-gcc-major-version-only --with-isl --with-linker-hash-style=gnu --with-tune=generic --without-cuda-driver","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <System>
+    <Identifier>llvmpipe</Identifier>
+    <Hardware>Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Chipset: Intel 440FX- 82441FX PMC, Memory: 4096MB, Disk: 52GB VBOX HDD, Graphics: llvmpipe 3968MB, Monitor: VBOX monitor, Network: Intel 82540EM Gigabit</Hardware>
+    <Software>OS: Fedora 27, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), Desktop: GNOME Shell 3.26.2, OpenGL: 2.1 Mesa 17.2.4 (LLVM 5.0 256 bits), Compiler: GCC 7.3.1 20180130, File-System: ext4, Screen Resolution: 1680x1050, System Layer: Oracle VirtualBox</Software>
+    <User></User>
+    <TimeStamp>2018-02-19 12:06:09</TimeStamp>
+    <TestClientVersion></TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"python":"Python 2.7.14 + Python 3.6.4","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/aio-stress-1.1.1</Identifier>
+    <Title>AIO-Stress</Title>
+    <AppVersion>0.21</AppVersion>
+    <Arguments>-o 2</Arguments>
+    <Description>Test: Random Write</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>VBOX HDD</Identifier>
+        <Value>632.11</Value>
+        <RawString>78.64:930.66:891.07:912.57:250.43:729.31</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-ffs</Arguments>
+    <Description>Benchmark: ffs</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>7.60</Value>
+        <RawString>7.60139:7.63445:7.56487</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-sqrt</Arguments>
+    <Description>Benchmark: sqrt</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>17.07</Value>
+        <RawString>17.0075:17.1119:17.0815</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-tanh</Arguments>
+    <Description>Benchmark: tanh</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>73.47</Value>
+        <RawString>72.84:73.6015:73.9585</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-ffsll</Arguments>
+    <Description>Benchmark: ffsll</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>8.73</Value>
+        <RawString>8.6354:8.72972:8.82621</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.0</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-pthread_once</Arguments>
+    <Description>Benchmark: pthread_once</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>9.07</Value>
+        <RawString>9.00482:9.17269:9.02209</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ffmpeg-2.7.0</Identifier>
+    <Title>FFmpeg</Title>
+    <AppVersion>3.4.1</AppVersion>
+    <Arguments></Arguments>
+    <Description>H.264 HD To NTSC DV</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400</Identifier>
+        <Value>15.37</Value>
+        <RawString>15.564942121506:15.368692874908:15.162926912308</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lavdevice -lavfilter -lavformat -lavcodec -lswresample -lswscale -lavutil -lxcb -lxcb-shm -lxcb-xfixes -lxcb-shape -lm -ldl -pthread -std=c11 -fomit-frame-pointer -O3 -fno-math-errno -fno-signed-zeros -fno-tree-vectorize -MMD -MF -MT"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glmark2-1.1.0</Identifier>
+    <Title>GLmark2</Title>
+    <AppVersion>276</AppVersion>
+    <Arguments>-s 800x600</Arguments>
+    <Description>Resolution: 800 x 600</Description>
+    <Scale>Score</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>llvmpipe</Identifier>
+        <Value>146</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

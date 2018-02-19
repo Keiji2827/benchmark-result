@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>KeijiU</Title>
+    <LastModified>2018-02-19 13:29:36</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>Running pts/glmark2-1.1.0 via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>Intel Core i5-2400 -  - Oracle VirtualBox v1.2</Identifier>
+    <Hardware>Processor: Intel Core i5-2400 @ 3.09GHz (3 Cores), Motherboard: Oracle VirtualBox v1.2, Memory: 4096MB, Disk: 52GB VBOX HDD</Hardware>
+    <Software>OS: Debian Linux Stretch/sid, Kernel: 4.14.18-300.fc27.x86_64 (x86_64), OpenGL: 3.3 Mesa 17.2.8, Compiler: GCC 5.4.0 20160609, File-System: overlayfs, Screen Resolution: 912x758, System Layer: docker VirtualBox</Software>
+    <User>root</User>
+    <TimeStamp>2018-02-19 13:29:36</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes></Notes>
+  </System>
+  <Result>
+    <Identifier>pts/glmark2-1.1.0</Identifier>
+    <Title>GLmark2</Title>
+    <AppVersion>276</AppVersion>
+    <Arguments>-s 800x600</Arguments>
+    <Description>Resolution: 800 x 600</Description>
+    <Scale>Score</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core i5-2400 -  - Oracle VirtualBox v1.2</Identifier>
+        <Value>96</Value>
+        <RawString>96</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
